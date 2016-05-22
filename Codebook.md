@@ -1,11 +1,11 @@
 # Getting and Cleaning Data Course Project
-## Codebook
-###Background
+
+## Study Design
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
-
+## Codebook
 ### Files
 Filename | Description
 ------------ | -------------
@@ -21,8 +21,12 @@ activity_labels.txt | List of activity codes and their corresponding activity na
 Data.txt | Table of the subject codes, activities names, and the training and test datasets. This is a 10299 x 68 table. The first column is the subject code, the second is the activity that the subject performed, and the next 66 colums are various mean and standard deviation measurements. Refer below for the list of measurements.
 Average.txt | Table of the average of each feature/variable for each activity and each subject. This is a 180 x 68 table. The first column is the activity that the subject performed, the second is the subject code, and the next 66 columns are the average of the various measurements for each activity that a subject performed. Refer below for the list of measurements.
 
+### Subject and Activity
+"subject" - shows the ID code of the subject performing the activity
+"activity" - shows the activity involved. The activity codes and their corresponding descriptive activity names are: 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING
 
-**Measurements:**
+###Measurements
+The following are various measurements taken for the various subjects and activities:
 "tbodyacc.mean.x"
 "tbodyacc.mean.y"
 "tbodyacc.mean.z"
@@ -89,7 +93,6 @@ Average.txt | Table of the average of each feature/variable for each activity an
 "fbodybodygyromag.std"
 "fbodybodygyrojerkmag.mean"
 "fbodybodygyrojerkmag.std"
-
 
 ### Variables
 Variable Name | Description
