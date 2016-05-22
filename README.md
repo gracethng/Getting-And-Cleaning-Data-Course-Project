@@ -30,5 +30,5 @@ The R script called run_analysis.R does the following:
 7. It renames the column names of the new dataset with the descriptive names, and makes them tidy by removing brackets and changing to lower case letters using `gsub` and `tolower`.
 8. It reads the activity labels and makes the activity names tidy by removing underscores and changing to lower case letters using `gsub` and `tolower`. It replaces the activity codes in **y_activity**descriptive activity names.
 9. It renames the column names of **y_activity** and **z_subject** to "activity" and "subject".
-10. It merges subject code, activity and dataset into a single dataset called **x_data_compiled** using `cbind`.
-11. It creates a second dataset called **average**, with the average of each variable for each activity and each subject. This is done using `aggregate` with formula = . ~ activity + subject and FUN = mean.
+10. It merges subject code, activity and dataset into a single dataset called **x_data_compiled** using `cbind`, and exports the data into the text file called **"Data.txt"**. 
+11. It creates a second dataset called **average**, with the average of each variable for each activity and each subject. This is done using `aggregate` with formula = . ~ activity + subject and FUN = mean. It exports the averages into the text file called **"Average.txt"**. 
