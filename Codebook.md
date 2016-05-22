@@ -96,7 +96,7 @@ activity_labels.txt | List of activity codes and their corresponding activity na
 Data.txt | Table of the subject codes, activities names, and the training and test datasets. This is a 10299 x 68 table. The first column is the subject code, the second is the activity that the subject performed, and the next 66 colums are various mean and standard deviation measurements. Refer above for the list of measurements.
 Average.txt | Table of the average of each feature/variable for each activity and each subject. This is a 180 x 68 table. The first column is the activity that the subject performed, the second is the subject code, and the next 66 columns are the average of the various measurements for each activity that a subject performed. Refer above for the list of measurements.
 
-### Variables
+### Variables Used in Codes
 Variable Name | Description
 ------------ | -------------
 url | URL of data for project
