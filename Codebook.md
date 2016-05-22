@@ -6,21 +6,6 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
 ## Codebook
-### Files
-Filename | Description
------------- | -------------
-UCI HAR dataset.zip | Data for project
-./train/X_train.txt | Training dataset
-./test/X_test.txt | Test dataset
-./train/y_train.txt | Training activity codes
-./test/y_test.txt | Test activity codes
-./train/subject_train.txt | Training subject codes
-./test/subject_test.txt | Test subject codes
-features.txt | List of features/variable names
-activity_labels.txt | List of activity codes and their corresponding activity names
-Data.txt | Table of the subject codes, activities names, and the training and test datasets. This is a 10299 x 68 table. The first column is the subject code, the second is the activity that the subject performed, and the next 66 colums are various mean and standard deviation measurements. Refer below for the list of measurements.
-Average.txt | Table of the average of each feature/variable for each activity and each subject. This is a 180 x 68 table. The first column is the activity that the subject performed, the second is the subject code, and the next 66 columns are the average of the various measurements for each activity that a subject performed. Refer below for the list of measurements.
-
 ### Subject and Activity
 "subject" - shows the ID code of the subject performing the activity
 "activity" - shows the activity involved. The activity codes and their corresponding descriptive activity names are: 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING
@@ -93,6 +78,21 @@ The following are various measurements taken for the various subjects and activi
 "fbodybodygyromag.std"
 "fbodybodygyrojerkmag.mean"
 "fbodybodygyrojerkmag.std"
+
+### Files
+Filename | Description
+------------ | -------------
+UCI HAR dataset.zip | Data for project
+./train/X_train.txt | Training dataset
+./test/X_test.txt | Test dataset
+./train/y_train.txt | Training activity codes
+./test/y_test.txt | Test activity codes
+./train/subject_train.txt | Training subject codes
+./test/subject_test.txt | Test subject codes
+features.txt | List of features/variable names
+activity_labels.txt | List of activity codes and their corresponding activity names
+Data.txt | Table of the subject codes, activities names, and the training and test datasets. This is a 10299 x 68 table. The first column is the subject code, the second is the activity that the subject performed, and the next 66 colums are various mean and standard deviation measurements. Refer above for the list of measurements.
+Average.txt | Table of the average of each feature/variable for each activity and each subject. This is a 180 x 68 table. The first column is the activity that the subject performed, the second is the subject code, and the next 66 columns are the average of the various measurements for each activity that a subject performed. Refer above for the list of measurements.
 
 ### Variables
 Variable Name | Description
