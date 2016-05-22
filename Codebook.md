@@ -8,10 +8,12 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ## Codebook
 ### Subject and Activity
 "subject" - shows the ID code of the subject performing the activity
+
 "activity" - shows the activity involved. The activity codes and their corresponding descriptive activity names are: 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING
 
 ###Measurements
 The following are various measurements taken for the various subjects and activities:
+
 "tbodyacc.mean.x"
 "tbodyacc.mean.y"
 "tbodyacc.mean.z"
