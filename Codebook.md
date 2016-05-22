@@ -12,7 +12,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 "activity" - shows the activity involved. The activity codes and their corresponding descriptive activity names are: 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING
 
 ###Measurements
-The following are various measurements taken for the various subjects and activities:
+The following are various measurements' means and standard deviations taken for the various subjects and activities:
 
 "tbodyacc.mean.x"
 "tbodyacc.mean.y"
